@@ -1,0 +1,11 @@
+node_modules/
+dist/
+node-portable/
+node-portable.zip
+vite-dev.log
+vite-dev.err.log
+localtunnel.log
+localtunnel.err.log
+deepseek.html
+pptx_extracted/
+source.zip
