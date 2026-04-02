@@ -8,7 +8,7 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
     <>
       <section className="hero panel-grid">
         <div className="hero-copy">
-          <p className="eyebrow">MEPHI / Лицей 1511 / Dyson Swarm Research Interface</p>
+          <p className="eyebrow">МИФИ / Лицей 1511 / Исследовательский интерфейс проекта</p>
           <h1>Рой Дайсона как инженерная система, а не просто фантастическая идея</h1>
           <p className="lead">
             Сайт собирает проект в единую исследовательскую среду: здесь можно увидеть архитектуру системы,
@@ -26,7 +26,7 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
 
         <div className="hero-visual panel">
           <div className="panel-header">
-            <span>System transmission scheme</span>
+            <span>Схема передачи энергии</span>
             <small>Нажимай на узлы схемы</small>
           </div>
           <OrbitalDiagram activeId={activeModuleId} onSelect={onModuleSelect} />
@@ -44,7 +44,7 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
 
       <section className="section panel-grid">
         <div className="panel">
-          <p className="eyebrow">Mission Brief</p>
+          <p className="eyebrow">Кратко о проекте</p>
           <h2>О чём этот проект</h2>
           <p>
             Проект исследует возможность переноса крупномасштабной солнечной энергетики в космос и рассматривает
@@ -58,7 +58,7 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
         </div>
 
         <div className="panel panel-emphasis">
-          <p className="eyebrow">Research Trigger</p>
+          <p className="eyebrow">Почему это важно</p>
           <h2>Почему исследование важно</h2>
           <p>
             Рост мирового энергопотребления делает поиск новых масштабируемых источников энергии критически важным.
@@ -70,7 +70,7 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
 
       <section className="section">
         <div className="section-heading">
-          <p className="eyebrow">Project Meaning</p>
+          <p className="eyebrow">Главная идея</p>
           <h2>Что уже показывает исследование</h2>
         </div>
         <div className="highlights-grid">
@@ -85,7 +85,7 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
 
       <section className="section">
         <div className="section-heading">
-          <p className="eyebrow">System Stack</p>
+          <p className="eyebrow">Состав системы</p>
           <h2>Компоненты системы</h2>
         </div>
         <div className="module-grid">
@@ -116,13 +116,13 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
 
       <section className="section">
         <div className="section-heading">
-          <p className="eyebrow">Critical Risks</p>
+          <p className="eyebrow">Главные ограничения</p>
           <h2>Ключевые проблемы проекта</h2>
         </div>
         <div className="risk-grid">
           {risks.map((risk) => (
             <article className="risk-card" key={risk}>
-              <span className="risk-card__badge">Risk</span>
+              <span className="risk-card__badge">Проблема</span>
               <p>{risk}</p>
             </article>
           ))}
@@ -131,7 +131,7 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
 
       <section className="section">
         <div className="section-heading">
-          <p className="eyebrow">Mission Parameters</p>
+          <p className="eyebrow">Ключевые параметры</p>
           <h2>Ключевые параметры стартовой схемы</h2>
         </div>
         <div className="stat-grid">
@@ -146,7 +146,7 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
 
       <section className="section" id="documents">
         <div className="section-heading">
-          <p className="eyebrow">Research Vault</p>
+          <p className="eyebrow">Материалы проекта</p>
           <h2>Документы и внешние материалы</h2>
         </div>
         <div className="docs-grid">
@@ -176,10 +176,6 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
                   ))}
                 </div>
               ) : null}
-
-              <a className="doc-link" href={item.href} rel="noreferrer" target="_blank">
-                Открыть
-              </a>
             </article>
           ))}
         </div>

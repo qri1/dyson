@@ -207,15 +207,15 @@ export const documentLinks = [
     href: "https://www.militaryaerospace.com/directory/electro-optics/optical-imaging/blog/55264240/avantier-inc-silicon-carbide-mirror-for-aerospace-applications",
     links: [
       {
-        label: "SiC mirrors for aerospace",
+        label: "Зеркала из SiC для аэрокосмических систем",
         href: "https://www.militaryaerospace.com/directory/electro-optics/optical-imaging/blog/55264240/avantier-inc-silicon-carbide-mirror-for-aerospace-applications",
       },
       {
-        label: "IEEE: radiation-resistant coatings",
+        label: "IEEE: радиационно-стойкие покрытия",
         href: "https://ieeexplore.ieee.org/document/10703104?utm_source=Securitylab.ru",
       },
       {
-        label: "Universe Today: lightweight mirror structure",
+        label: "Universe Today: лёгкая зеркальная конструкция",
         href: "https://www.universetoday.com/articles/largest-mirror-in-space-under-development",
       },
     ],
@@ -227,19 +227,19 @@ export const documentLinks = [
     href: "https://arxiv.org/abs/2206.08373",
     links: [
       {
-        label: "arXiv: Dyson Swarm and megastructure concepts",
+        label: "arXiv: концепции Роя Дайсона и мегаструктур",
         href: "https://arxiv.org/abs/2206.08373",
       },
       {
-        label: "IEEE: space solar power transmission",
+        label: "IEEE: передача космической солнечной энергии",
         href: "https://ieeexplore.ieee.org/document/8366046",
       },
       {
-        label: "Caltech: solar power beaming research",
+        label: "Caltech: передача солнечной энергии направленным лучом",
         href: "https://authors.library.caltech.edu/records/v0wpe-pk203",
       },
       {
-        label: "Caltech: deployable space power systems",
+        label: "Caltech: разворачиваемые космические энергосистемы",
         href: "https://authors.library.caltech.edu/records/hd7br-x6z92",
       },
     ],

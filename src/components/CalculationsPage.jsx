@@ -9,7 +9,7 @@ export function CalculationsPage() {
     <>
       <section className="section page-hero">
         <div className="panel page-hero__panel">
-          <p className="eyebrow">Detailed Calculations</p>
+          <p className="eyebrow">Детальные расчёты</p>
           <h1>Детальные инженерные расчёты проекта</h1>
           <p className="lead">
             Эта страница собирает расчётные блоки в более исследовательском формате: масса зеркала, тепловой предел,
@@ -48,7 +48,7 @@ export function CalculationsPage() {
 
       <section className="section">
         <div className="section-heading">
-          <p className="eyebrow">Research Tables</p>
+          <p className="eyebrow">Исследовательские таблицы</p>
           <h2>Таблицы проекта</h2>
         </div>
         <div className="research-tables">
@@ -77,7 +77,7 @@ export function CalculationsPage() {
 
       <section className="section">
         <div className="section-heading">
-          <p className="eyebrow">Project Path</p>
+          <p className="eyebrow">Этапы исследования</p>
           <h2>Логика развития исследования</h2>
         </div>
         <div className="timeline">
@@ -93,7 +93,7 @@ export function CalculationsPage() {
 
       <section className="section">
         <article className="panel summary-panel">
-          <p className="eyebrow">Summary</p>
+          <p className="eyebrow">Вывод</p>
           <h2>Главный вывод о проекте</h2>
           <p>
             Проект ценен тем, что переводит идею Роя Дайсона из области общего научно-фантастического образа в язык

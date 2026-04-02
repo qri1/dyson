@@ -39,7 +39,7 @@ export default function App() {
         <button className="brand" onClick={() => navigate("home")} type="button">
           <span className="brand__mark">DS</span>
           <span className="brand__copy">
-            <strong>Dyson Swarm Research</strong>
+            <strong>Исследование Роя Дайсона</strong>
             <small>Интерфейс исследовательского проекта</small>
           </span>
         </button>
@@ -79,7 +79,7 @@ export default function App() {
           </a>
         </div>
         <div>
-          <p className="footer__title">Dyson Swarm Research Archive</p>
+          <p className="footer__title">Архив исследования Роя Дайсона</p>
           <p className="footer__copy">
             React/Vite версия сайта с отдельной страницей расчётов и интерактивной схемой системы.
           </p>
