@@ -89,9 +89,9 @@ export default function App() {
           </a>
         </div>
         <div>
-          <p className="footer__title">Архив исследования Роя Дайсона</p>
+          <p className="footer__title">Рой Дайсона</p>
           <p className="footer__copy">
-            Сайт проекта исследования Роя Дайсона для конкурса «Юниор».
+            Космическая солнечная энергетика.
           </p>
         </div>
       </footer>
