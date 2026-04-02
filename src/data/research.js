@@ -255,3 +255,79 @@ export const sourceLinks = [
   "https://authors.library.caltech.edu/records/v0wpe-pk203",
   "https://authors.library.caltech.edu/records/hd7br-x6z92",
 ];
+
+export const resourceAssumptions = [
+  { label: "Полная площадь зеркал", value: "2 800 км²" },
+  { label: "Срок поэтапного развёртывания", value: "15 лет" },
+  { label: "Ориентир по выпуску SiC в мире", value: "3.0 млн т/год" },
+  { label: "Ориентир по выпуску Al в мире", value: "70 млн т/год" },
+];
+
+export const globalResourceLoad = [
+  {
+    resource: "SiC-основа",
+    total: "46.2 млн т",
+    worldAnnual: "3.0 млн т/год",
+    worldYears: "15.4 года",
+    annualFor15Years: "3.08 млн т/год (103%)",
+  },
+  {
+    resource: "CVD SiC",
+    total: "1.80 млн т",
+    worldAnnual: "3.0 млн т/год",
+    worldYears: "0.60 года",
+    annualFor15Years: "0.12 млн т/год (4%)",
+  },
+  {
+    resource: "Алюминий",
+    total: "37.8 тыс. т",
+    worldAnnual: "70 млн т/год",
+    worldYears: "0.00054 года",
+    annualFor15Years: "2.52 тыс. т/год (0.0036%)",
+  },
+  {
+    resource: "Al₂O₃",
+    total: "221 т",
+    worldAnnual: "140 млн т/год",
+    worldYears: "0.0000016 года",
+    annualFor15Years: "14.7 т/год (0.000011%)",
+  },
+];
+
+export const phasedResourceLoad = [
+  {
+    stage: "Пилот",
+    share: "1%",
+    mirrorArea: "28 км²",
+    sicMass: "0.48 млн т",
+    sicAnnualShare: "16%",
+  },
+  {
+    stage: "Демонстратор",
+    share: "5%",
+    mirrorArea: "140 км²",
+    sicMass: "2.40 млн т",
+    sicAnnualShare: "80%",
+  },
+  {
+    stage: "Раннее развёртывание",
+    share: "20%",
+    mirrorArea: "560 км²",
+    sicMass: "9.60 млн т",
+    sicAnnualShare: "320%",
+  },
+  {
+    stage: "Индустриальная фаза",
+    share: "50%",
+    mirrorArea: "1 400 км²",
+    sicMass: "24.00 млн т",
+    sicAnnualShare: "800%",
+  },
+  {
+    stage: "Полная конфигурация",
+    share: "100%",
+    mirrorArea: "2 800 км²",
+    sicMass: "48.00 млн т",
+    sicAnnualShare: "1600%",
+  },
+];

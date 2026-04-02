@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import { HomePage } from "./components/HomePage";
 import { CalculationsPage } from "./components/CalculationsPage";
+import { ResourcesPage } from "./components/ResourcesPage";
 
 function getRouteFromHash() {
-  return window.location.hash === "#/calculations" ? "calculations" : "home";
+  if (window.location.hash === "#/calculations") return "calculations";
+  if (window.location.hash === "#/resources") return "resources";
+  return "home";
 }
 
 export default function App() {
@@ -17,7 +20,9 @@ export default function App() {
   }, []);
 
   const navigate = (nextRoute) => {
-    window.location.hash = nextRoute === "calculations" ? "/calculations" : "/";
+    if (nextRoute === "calculations") window.location.hash = "/calculations";
+    else if (nextRoute === "resources") window.location.hash = "/resources";
+    else window.location.hash = "/";
     setRoute(nextRoute);
   };
 
@@ -55,6 +60,9 @@ export default function App() {
           >
             Расчёты
           </button>
+          <button className={route === "resources" ? "topnav__link topnav__link--active" : "topnav__link"} onClick={() => navigate("resources")} type="button">
+            Ресурсы
+          </button>
           <button className="topnav__link" onClick={openDocuments} type="button">
             Документы
           </button>
@@ -64,8 +72,10 @@ export default function App() {
       <main className="content">
         {route === "home" ? (
           <HomePage activeModuleId={activeModuleId} onModuleSelect={setActiveModuleId} onNavigate={navigate} />
-        ) : (
+        ) : route === "calculations" ? (
           <CalculationsPage />
+        ) : (
+          <ResourcesPage />
         )}
       </main>
 
@@ -81,7 +91,7 @@ export default function App() {
         <div>
           <p className="footer__title">Архив исследования Роя Дайсона</p>
           <p className="footer__copy">
-            Сайт проекта исследования Роя Дайсона для программы «Юниор».
+            Сайт проекта исследования Роя Дайсона для конкурса «Юниор».
           </p>
         </div>
       </footer>

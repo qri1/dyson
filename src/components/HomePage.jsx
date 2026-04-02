@@ -180,7 +180,7 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
           ))}
         </div>
         <article className="panel">
-          <h3>Основные источники из презентации</h3>
+          <h3>Основные источники</h3>
           <div className="source-grid">
             {sourceLinks.map((link) => (
               <a className="source-link" href={link} key={link} rel="noreferrer" target="_blank">

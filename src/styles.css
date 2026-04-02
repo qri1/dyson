@@ -430,16 +430,16 @@ h3 {
 }
 
 .system-scheme__flow--one { left: 24%; top: 25%; }
-.system-scheme__flow--two { left: 41%; top: 61%; }
-.system-scheme__flow--three { left: 60%; top: 24%; }
-.system-scheme__flow--four { left: 74%; top: 74%; max-width: 92px; }
+.system-scheme__flow--two { left: 43%; top: 66%; }
+.system-scheme__flow--three { left: 57%; top: 22%; }
+.system-scheme__flow--four { left: 73%; top: 72%; max-width: 100px; }
 
 .scheme-node {
   position: absolute;
-  min-width: 104px;
-  max-width: 126px;
+  min-width: 100px;
+  max-width: 120px;
   transform: translate(-50%, -50%);
-  padding: 10px 12px;
+  padding: 9px 11px;
   border-radius: 18px;
   background: rgba(3, 13, 22, 0.32);
   border: 1px solid rgba(115, 231, 255, 0.1);
@@ -451,7 +451,7 @@ h3 {
 
 .scheme-node span {
   display: block;
-  font-size: 0.68rem;
+  font-size: 0.65rem;
   line-height: 1.35;
   text-wrap: balance;
   color: rgba(237, 247, 255, 0.96);
@@ -690,6 +690,52 @@ h3 {
 
 .timeline { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 
+.resource-assumptions {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.resource-table-panel {
+  overflow: hidden;
+}
+
+.resource-table {
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.resource-table__head,
+.resource-table__row {
+  display: grid;
+}
+
+.resource-table__head {
+  background: rgba(115, 231, 255, 0.08);
+  font-weight: 700;
+}
+
+.resource-table__row {
+  background: rgba(255, 255, 255, 0.02);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.resource-table span {
+  padding: 12px 14px;
+  line-height: 1.55;
+}
+
+.resource-table--global .resource-table__head,
+.resource-table--global .resource-table__row {
+  grid-template-columns: 1.1fr 1fr 1fr 1fr 1.2fr;
+}
+
+.resource-table--phased .resource-table__head,
+.resource-table--phased .resource-table__row {
+  grid-template-columns: 1fr 0.7fr 1fr 1fr 1.3fr;
+}
+
 .timeline-card__phase {
   display: inline-flex;
   margin-bottom: 16px;
@@ -767,6 +813,7 @@ h3 {
   .risk-grid,
   .docs-grid,
   .timeline,
+  .resource-assumptions,
   .highlights-grid,
   .research-tables {
     grid-template-columns: 1fr 1fr;
@@ -790,6 +837,7 @@ h3 {
   .risk-grid,
   .docs-grid,
   .timeline,
+  .resource-assumptions,
   .source-grid,
   .stat-grid,
   .highlights-grid,
@@ -811,7 +859,9 @@ h3 {
   }
   .calc-card__header { flex-direction: column; }
   .research-table__head,
-  .research-table__row {
+  .research-table__row,
+  .resource-table__head,
+  .resource-table__row {
     grid-template-columns: 1fr;
   }
 }
