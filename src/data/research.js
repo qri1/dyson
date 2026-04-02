@@ -296,35 +296,35 @@ export const globalResourceLoad = [
 
 export const phasedResourceLoad = [
   {
-    stage: "Пилот",
+    stage: "Пилотный этап",
     share: "1%",
     mirrorArea: "28 км²",
     sicMass: "0.48 млн т",
     sicAnnualShare: "16%",
   },
   {
-    stage: "Демонстратор",
+    stage: "Демонстрационный этап",
     share: "5%",
     mirrorArea: "140 км²",
     sicMass: "2.40 млн т",
     sicAnnualShare: "80%",
   },
   {
-    stage: "Раннее развёртывание",
+    stage: "Начальное развёртывание",
     share: "20%",
     mirrorArea: "560 км²",
     sicMass: "9.60 млн т",
     sicAnnualShare: "320%",
   },
   {
-    stage: "Индустриальная фаза",
+    stage: "Промышленное развёртывание",
     share: "50%",
     mirrorArea: "1 400 км²",
     sicMass: "24.00 млн т",
     sicAnnualShare: "800%",
   },
   {
-    stage: "Полная конфигурация",
+    stage: "Полномасштабная система",
     share: "100%",
     mirrorArea: "2 800 км²",
     sicMass: "48.00 млн т",
