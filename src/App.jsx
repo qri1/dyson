@@ -72,16 +72,16 @@ export default function App() {
       <footer className="footer">
         <div className="footer__logos">
           <a className="footer__logo-link" href="https://www.1511.ru/" rel="noreferrer" target="_blank">
-            <img alt="Лицей 1511" src="/assets/lyceum-logo.png" />
+            <img alt="Лицей 1511" src="./assets/lyceum-logo.png" />
           </a>
           <a className="footer__logo-link" href="https://mephi.ru/" rel="noreferrer" target="_blank">
-            <img alt="МИФИ" src="/assets/mifi-logo.png" />
+            <img alt="МИФИ" src="./assets/mifi-logo.png" />
           </a>
         </div>
         <div>
           <p className="footer__title">Архив исследования Роя Дайсона</p>
           <p className="footer__copy">
-            React/Vite версия сайта с отдельной страницей расчётов и интерактивной схемой системы.
+            Сайт проекта исследования Роя Дайсона для программы «Юниор».
           </p>
         </div>
       </footer>

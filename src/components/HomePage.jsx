@@ -64,7 +64,7 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
             Рост мирового энергопотребления делает поиск новых масштабируемых источников энергии критически важным.
             Вынесение солнечной энергетики в космос открывает другой класс решений, но требует точного инженерного расчёта.
           </p>
-          <img className="chart-image" src="/assets/energy-chart.png" alt="Рост мирового энергопотребления" />
+          <img className="chart-image" src="./assets/energy-chart.png" alt="Рост мирового энергопотребления" />
         </div>
       </section>
 
