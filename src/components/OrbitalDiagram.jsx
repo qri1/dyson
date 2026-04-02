@@ -2,7 +2,7 @@ import { systemModules } from "../data/research";
 
 export function OrbitalDiagram({ activeId, onSelect }) {
   const labels = {
-    reflectors: { x: 28, y: 24 },
+    reflectors: { x: 34, y: 24 },
     primary: { x: 35, y: 56 },
     relays: { x: 64, y: 35 },
     secondary: { x: 76, y: 62 },
