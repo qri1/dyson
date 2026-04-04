@@ -736,6 +736,11 @@ h3 {
   grid-template-columns: 1fr 0.7fr 1fr 1fr 1.3fr;
 }
 
+.resource-table--timeline .resource-table__head,
+.resource-table--timeline .resource-table__row {
+  grid-template-columns: 1fr 1fr 1fr 0.9fr 1.3fr;
+}
+
 .timeline-card__phase {
   display: inline-flex;
   margin-bottom: 16px;
