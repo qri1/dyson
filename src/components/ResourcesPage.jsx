@@ -3,6 +3,7 @@ import {
   globalResourceLoad,
   phasedResourceLoad,
   productionTimeSummary,
+  receiverSubsystemMaterials,
   resourceAssumptions,
 } from "../data/research";
 
@@ -43,6 +44,31 @@ export function ResourcesPage() {
             <li>Массовые материалы (сталь, алюминий, медь) не являются главным ограничением.</li>
             <li>Ключевые узкие места: галлий, индий, молибден, серебро и карбид кремния.</li>
           </ul>
+        </article>
+      </section>
+
+      <section className="section">
+        <div className="section-heading">
+          <p className="eyebrow">Спутник-приёмник</p>
+          <h2>Материалы по подсистемам аппарата</h2>
+        </div>
+        <article className="panel resource-table-panel">
+          <div className="resource-table resource-table--receiver">
+            <div className="resource-table__head">
+              <span>Подсистема</span>
+              <span>Распространённые материалы</span>
+              <span>Редкие / экзотические</span>
+              <span>Риск</span>
+            </div>
+            {receiverSubsystemMaterials.map((row) => (
+              <div className="resource-table__row" key={row.subsystem}>
+                <span>{row.subsystem}</span>
+                <span>{row.common}</span>
+                <span>{row.rare}</span>
+                <span>{row.risk}</span>
+              </div>
+            ))}
+          </div>
         </article>
       </section>
 
