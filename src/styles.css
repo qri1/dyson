@@ -206,6 +206,10 @@ h1 {
   white-space: nowrap;
 }
 
+.hero-main-title {
+  margin-left: -52px;
+}
+
 h2 {
   margin: 0 0 14px;
   font-size: clamp(1.8rem, 4vw, 3rem);
@@ -869,7 +873,7 @@ h3 {
   }
 
   .hero-copy h1 {
-    margin-left: -36px;
+    margin-left: -60px;
     font-size: clamp(1.9rem, 9.4vw, 3.2rem);
   }
 
