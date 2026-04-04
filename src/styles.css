@@ -197,6 +197,7 @@ h1 {
   margin: 0;
   font-size: clamp(2.8rem, 7vw, 5.6rem);
   line-height: 0.96;
+  overflow-wrap: anywhere;
 }
 
 h2 {
@@ -859,6 +860,11 @@ h3 {
   .footer {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .hero-copy h1 {
+    margin-left: -6px;
+    font-size: clamp(2.2rem, 11vw, 3.6rem);
   }
 
   .system-scheme { min-height: 420px; }
