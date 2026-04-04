@@ -9,7 +9,11 @@ export function HomePage({ activeModuleId, onModuleSelect, onNavigate }) {
       <section className="hero panel-grid">
         <div className="hero-copy">
           <p className="eyebrow">МИФИ / Лицей 1511 / Исследовательский интерфейс проекта</p>
-          <h1>Исследования Роя Дайсона</h1>
+          <h1>
+            <span className="hero-title-line">Исследования</span>
+            <span className="hero-title-line">Роя</span>
+            <span className="hero-title-line">Дайсона</span>
+          </h1>
           <p className="lead">
             Сайт собирает проект в единую исследовательскую среду: здесь можно увидеть архитектуру системы,
             ключевые расчёты, масштаб стартовой конфигурации, ограничения материалов и подборку профильных исследований.

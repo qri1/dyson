@@ -200,6 +200,10 @@ h1 {
   overflow-wrap: anywhere;
 }
 
+.hero-title-line {
+  display: block;
+}
+
 h2 {
   margin: 0 0 14px;
   font-size: clamp(1.8rem, 4vw, 3rem);
@@ -863,7 +867,7 @@ h3 {
   }
 
   .hero-copy h1 {
-    margin-left: -6px;
+    margin-left: -14px;
     font-size: clamp(2.2rem, 11vw, 3.6rem);
   }
 
